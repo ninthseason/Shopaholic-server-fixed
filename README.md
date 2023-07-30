@@ -1,3 +1,5 @@
+该bug可能导致服务端报错，无法开服。
+
 BUG点：[ShopLoader.java](https://github.com/ninthseason/Shopaholic-server-fixed/blob/main/src/main/java/uk/joshiejack/shopaholic/shop/ShopLoader.java):125行
 
 规避方法：自制数据包时，商店的**Extra Texture**不要设置为`default`，设置为等价的`shopaholic:textures/gui/shop_extra.png`
